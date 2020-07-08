@@ -28,7 +28,7 @@ const Cart = (props) => {
         <div>
             <h3>Order Summery</h3>
             <p>Items Order:{cart.length}</p>
-            <p>Total price:{total}</p>
+            <p>Total price:{formatNumber (total)}</p>
             <p>Product price:{formatNumber(total)}</p>
             <p><small>Shipping cost:{shipping}</small></p>
             <p><small>Tax + VAT: {tax}</small></p>
